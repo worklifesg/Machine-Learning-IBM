@@ -1,5 +1,5 @@
 #                                                                 Machine-Learning-IBM
-This is course on Machine Learning from IBM and some python built codes will be presented here for Regression, Classification, Clustering and Recommender Systems.
+This is course on Machine Learning using Python. Most of the programs are from IBM course and some are presenterd only for learning purpose. These codes will be on topics like Regression, Classification, Clustering and Recommender Systems.
 
 # Simple and Multiple Linear Regression
 
