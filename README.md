@@ -2,11 +2,18 @@
 ## Table of contents
 * [General info](#general-info)
 * [Code setup Information](#code-setup-information)
+* [Simple and Multiple Linear Regression](#simple-and-multiple-linear-regression)
+* [Ordinal Logistic Regression](#ordinal-logistic-regression)
+* [Non-Linear Regression](#non-linear-regression)
 
 ## General info
 This repository is on Machine Learning using Python 3.8.3 using Visual Studio Code. Most of the programs are from IBM Machine Learning course and some algorithms (course out of scope) are presenterd only for learning purpose. These codes will be on topics like Regression, Classification, Clustering and Recommender Systems. 
 
 ## Code setup Information
+
+* The code is writin in Visual Studio code using Python extension with Python 3.8.3 installed on the system. 
+* Output results are written in text file (.txt)
+* The illustrations are saved as eps and using latex, each documentation is created as .pdf
 
 ### Simple and Multiple Linear Regression
 
