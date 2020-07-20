@@ -1,7 +1,14 @@
-#                                                                 Machine-Learning-IBM
-This is course on Machine Learning using Python. Most of the programs are from IBM course and some are presenterd only for learning purpose. These codes will be on topics like Regression, Classification, Clustering and Recommender Systems. Programs are written in Python using Visual Studio Code
+# Machine-Learning-IBM
+## Table of contents
+* [General info](#general-info)
+* [Code setup Information](#code-setup-information)
 
-## Simple and Multiple Linear Regression
+## General info
+This repository is on Machine Learning using Python 3.8.3 using Visual Studio Code. Most of the programs are from IBM Machine Learning course and some algorithms (course out of scope) are presenterd only for learning purpose. These codes will be on topics like Regression, Classification, Clustering and Recommender Systems. 
+
+## Code setup Information
+
+### Simple and Multiple Linear Regression
 
 Python files: Simple_Regression_example.py, Multiple_Regression.py
 
@@ -11,7 +18,7 @@ A fuel consumption dataset, FuelConsumption.csv, which contains model-specific f
 
 Output file: LinearReg.txt, MultipleReg.txt
 
-## Ordinal Logistic Regression
+### Ordinal Logistic Regression
 
 Python files: Ordinal_Regression_example.py
 
@@ -21,7 +28,7 @@ Pima Indian Diabetes dataset. Source: https://www.kaggle.com/uciml/pima-indians-
 
 Output file: LogReg.txt
 
-## Non-Linear Regression
+### Non-Linear Regression
 
 Python files: Non_Linear.py, Non_Linear_Regression.py
 
