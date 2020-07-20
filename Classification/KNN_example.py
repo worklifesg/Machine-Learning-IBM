@@ -64,3 +64,4 @@ from sklearn import metrics
 with open('KNN.txt','a') as f:
     print('Train set accuracy: ', metrics.accuracy_score(y_train,neigh.predict(X_train)),file=f)
     print('Test set accuracy: ',metrics.accuracy_score(y_test,yhat),file=f)
+plt.show()
