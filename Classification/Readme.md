@@ -2,6 +2,7 @@
 * K-Nearest Neighbors is an algorithm for supervised machine learning. In this algorithm, once a point is to be predicted, it takes into account the 'K' nearest points to it to determine it's classification. 
 ## Table of contents
 * [K-Nearest Neighbors](#k-nearest-neighbors)
+* [Decision Tree using Scikit-learn](#decision-tree-using-scikit-learn)
 
 ### K-Nearest Neighbors
 
