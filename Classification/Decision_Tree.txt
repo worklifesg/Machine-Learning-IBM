@@ -1,0 +1,33 @@
+   Age Sex      BP Cholesterol  Na_to_K   Drug
+0   23   F    HIGH        HIGH   25.355  drugY
+1   47   M     LOW        HIGH   13.093  drugC
+2   47   M     LOW        HIGH   10.114  drugC
+3   28   F  NORMAL        HIGH    7.798  drugX
+4   61   F     LOW        HIGH   18.043  drugY
+[[23 'F' 'HIGH' 'HIGH' 25.355]
+ [47 'M' 'LOW' 'HIGH' 13.093]
+ [47 'M' 'LOW' 'HIGH' 10.113999999999999]
+ [28 'F' 'NORMAL' 'HIGH' 7.797999999999999]
+ [61 'F' 'LOW' 'HIGH' 18.043]]
+[[23 0 0 0 25.355]
+ [47 1 1 0 13.093]
+ [47 1 1 0 10.113999999999999]
+ [28 0 2 0 7.797999999999999]
+ [61 0 1 0 18.043]]
+0    drugY
+1    drugC
+2    drugC
+3    drugX
+4    drugY
+Name: Drug, dtype: object
+Train Set:  (140, 5) (140,)
+Test Set:  (60, 5) (60,)
+Prediction Set:  ['drugY' 'drugX' 'drugX' 'drugX' 'drugX']
+Y Test Set:  40     drugY
+51     drugX
+139    drugX
+197    drugX
+170    drugX
+Name: Drug, dtype: object
+Accuracy for Decision Tree Model (with sklearn) is :  0.9833333333333333
+Accuracy for Decision Tree Model (without sklearn) is :  0.9833333333333333
