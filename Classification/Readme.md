@@ -1,5 +1,7 @@
 # Classification
 * K-Nearest Neighbors is an algorithm for supervised machine learning. In this algorithm, once a point is to be predicted, it takes into account the 'K' nearest points to it to determine it's classification. 
+* Decision Tree algorithm maps all possible decisions path in the form of a tree by choosing the attributes that returns highest information gain. 
+* Logistic Regression is a variation of Linear Regression, useful when the observed dependent variable, y, is categorical. It produces a formula that predicts the probability of the class label as a function of the independent variables.
 ## Table of contents
 * [K-Nearest Neighbors](#k-nearest-neighbors)
 * [Decision Tree using Scikit-learn](#decision-tree-using-scikit-learn)
