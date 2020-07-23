@@ -3,6 +3,7 @@
 ## Table of contents
 * [K-Nearest Neighbors](#k-nearest-neighbors)
 * [Decision Tree using Scikit-learn](#decision-tree-using-scikit-learn)
+* [Logistic Regression](#logistic-regression)
 
 ### K-Nearest Neighbors
 
@@ -18,3 +19,14 @@
 * Date file: drug200.csv
 * Dataset of patients, all of whom suffered from the same illness. During their course of treatment, each patient responded to one of 5 medications, Drug A, Drug B, Drug c, Drug x and y. The objective is to find out which drug might be appropriate for a future patient with the same illness. The feature sets of this dataset are Age, Sex, Blood Pressure, and Cholesterol of patients, and the target is the drug that each patient responded to. 
 * Output file: Decision_Tree.txt
+
+### Logistic Regression
+
+* Python files: Logistic_Regression.py
+* Date file: ChurnData.csv
+* Telecommunications dataset for predicting customer churn. The dataset includes information about:
+    * Customers who left within the last month – the column is called Churn.
+    * Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
+    * Customer account information – how long they had been a customer, contract, payment method, paperless billing, monthly charges, and total charges
+    * Demographic info about customers – gender, age range, and if they have partners and dependents
+* Output file: Log_Reg.txt
