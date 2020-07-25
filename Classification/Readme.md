@@ -2,7 +2,7 @@
 * K-Nearest Neighbors is an algorithm for supervised machine learning. In this algorithm, once a point is to be predicted, it takes into account the 'K' nearest points to it to determine it's classification. 
 * Decision Tree algorithm maps all possible decisions path in the form of a tree by choosing the attributes that returns highest information gain. 
 * Logistic Regression is a variation of Linear Regression, useful when the observed dependent variable, y, is categorical. It produces a formula that predicts the probability of the class label as a function of the independent variables.
-* SVM works by mapping data to a high-dimensional feature space so that data points can be categorized, even when the data are not otherwise linearly separable. A separator between the categories is found, then the data is transformed in such a way that the separator could be drawn as a hyperplane. Following this, characteristics of new data can be used to predict the group to which a new record should belong.
+* Support Vector Machine (SVM) works by mapping data to a high-dimensional feature space so that data points can be categorized, even when the data are not otherwise linearly separable. A separator between the categories is found, then the data is transformed in such a way that the separator could be drawn as a hyperplane. Following this, characteristics of new data can be used to predict the group to which a new record should belong.
 ## Table of contents
 * [K-Nearest Neighbors](#k-nearest-neighbors)
 * [Decision Tree using Scikit-learn](#decision-tree-using-scikit-learn)
