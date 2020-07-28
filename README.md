@@ -6,6 +6,7 @@
   * [Ordinal Logistic Regression](#ordinal-logistic-regression)
   * [Non-Linear Regression](#non-linear-regression)
 * [Classification](#classification)
+* [Clustering](#clustering)
 ## General info
 This repository is on Machine Learning using Python 3.8.3 using Visual Studio Code. Most of the programs are from IBM Machine Learning course and some algorithms (course out of scope) are presenterd only for learning purpose. These codes will be on topics like Regression, Classification, Clustering and Recommender Systems. 
 
@@ -40,5 +41,9 @@ This repository is on Machine Learning using Python 3.8.3 using Visual Studio Co
 ## Classification
 
 * Separate folder '[Classification](#classification)' for working on different (categorical) datasets and applying different Classification algorithms such as KNN, Decision Tree, Logisitc Regression and Support Vector Machine (SVM)
+
+## Clustering
+
+* Separate folder '[Clustering](#clustering)' for working on different datasets and applying different Clustering algorithms such as K-means (Partitioning Clustering), Agglomerative (Hierarchical Clustering) anf DBSCAN (Density Based Clustering)
 ------------------------------------------------------------------------------------------------
 Note: Each program is compiled along with output log file and results in pdf using latex.
