@@ -44,6 +44,6 @@ This repository is on Machine Learning using Python 3.8.3 using Visual Studio Co
 
 ## Clustering
 
-* Separate folder '[Clustering](#clustering)' for working on different datasets and applying different Clustering algorithms such as K-means (Partitioning Clustering), Agglomerative (Hierarchical Clustering) anf DBSCAN (Density Based Clustering)
+* Separate folder '[Clustering](#clustering)' for working on different datasets and applying different Clustering algorithms such as K-means (Partitioning Clustering), Agglomerative (Hierarchical Clustering) and DBSCAN (Density Based Clustering)
 ------------------------------------------------------------------------------------------------
 Note: Each program is compiled along with output log file and results in pdf using latex.
