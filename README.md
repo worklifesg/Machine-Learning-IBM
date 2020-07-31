@@ -46,7 +46,7 @@ This repository is on Machine Learning using Python 3.8.3 using Visual Studio Co
 
 * Separate folder '[Clustering](#clustering)' for working on different datasets and applying different Clustering algorithms such as K-means (Partitioning Clustering), Agglomerative (Hierarchical Clustering) and DBSCAN (Density Based Clustering)
 
-## Usage of basemap in DBSCAN Clustering Algorithm
+### Usage of basemap in DBSCAN Clustering Algorithm
 
 Currently basemap is no longer in use in matplotlib toolkits since 2017. Another feature has been introduced 'Cartopy' but to finish this excerise in Visual Studio Code using basemap package, following steps are done.
 
