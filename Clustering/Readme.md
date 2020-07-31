@@ -1,10 +1,11 @@
 # Clustering
 * K-Means is an algorithm for unsupervised machine learning. It is one of the Partitioning Algorithm technique that divides the data into non overlapping subsets (labels) without any cluster-internal structure or labels.
 * Agglomerative Clustering - is one of the Hierarchical Clustering used to build hierarchy of clusters where each node is a cluster consisting of clusters of its daughter modes. This approach is bottom up approach, where each observation or data point starts its own cluster and pairs of clusters merge together as they move upwards in the hierarchy.
-
+* DBSCAN Algorithm is Density Based Spatial Clustering of Applications with Noise used for arbitary shape clusters, where tradiation techniques suhc as k-means doesn't differentiate between actual data points and outliers. This algorithm makes more dense areas with respect to their radius and maximum number of data points around centroid and creates less dense areas as outliers.
 ## Table of contents
 * [K-Means](#k-means)
 * [Agglomerative Hierarchical Clustering](#agglomerative-hierarchical-clustering)
+* [DBSCAN](#dbscan)
 
 ### K-Means
 
@@ -26,3 +27,23 @@
   * Agglomerative Clustering Algorithm for vehicle dataset using scipy - Hierarchical_Clustering_Vehicle_Dataset_Scipy.py
   * Agglomerative Clustering Algorithm for vehicle dataset using scikit-learn - Hierarchical_Clustering_Vehicle_Dataset_Scikit.py
 * Output file: Hierarchical.txt , hierarchical_vehicle.txt, hierarchical_vehicle_s.txt
+
+### DBSCAN Clustering
+
+* Python files: DBSCAN_General.py, DBSCAN_Weather_Station_Clustering.py
+* Date file: weather_Canada.csv
+* This dataset shows the location of weather stations in Canada. DBSCAN can be used here, for instance, to find the group of stations which show the same weather condition. As you can see, it not only finds different arbitrary shaped clusters, can find the denser part of data-centered samples by ignoring less-dense areas or noises.
+* Two programs:
+  * General DBSCAN Algorithm for randomly generated data points - DBSCAN_General.py
+  * DBSCAN Algorithm for weather stations dataset - DBSCAN_Weather_Station_Clustering.py
+* Output file: DBSCAN_general.txt
+
+## Usage of basemap in DBSCAN algorithm
+
+Currently basemap is no longer in use in matplotlib toolkits since 2017. Another feature has been introduced 'Cartopy' but to finish this excerise in Visual Studio Code using basemap package, following steps are done.
+
+* Install [Python 2.7.18](https://www.python.org/downloads/release/python-2718/), where pip is already there as there are no pip files before 2.7.9 and needs to be bootstrapped if used.
+* Install cp27-amd64 or cp27-amd32 .whl files for [Pyproj](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj) and [Basemap](https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap)
+* Using command prompt, use ' pip install pyproj‑1.9.6‑cp27‑cp27m‑win_amd64.whl' and ' pip install basemap‑1.2.1‑cp27‑cp27m‑win_amd64.whl'
+* Either you can make python 2.7 as default version in user and system environment variables in system settings or can Select Interpreter in VS Code and choose Python 2.7
+* Please remember when installing any version of Python, all other related packages need to be installed again such as numpy, pandas, scikit-learn, scipy etc.
