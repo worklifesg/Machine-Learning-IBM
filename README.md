@@ -45,5 +45,16 @@ This repository is on Machine Learning using Python 3.8.3 using Visual Studio Co
 ## Clustering
 
 * Separate folder '[Clustering](#clustering)' for working on different datasets and applying different Clustering algorithms such as K-means (Partitioning Clustering), Agglomerative (Hierarchical Clustering) and DBSCAN (Density Based Clustering)
+
+## Usage of basemap in DBSCAN Clustering Algorithm
+
+Currently basemap is no longer in use in matplotlib toolkits since 2017. Another feature has been introduced 'Cartopy' but to finish this excerise in Visual Studio Code using basemap package, following steps are done.
+
+* Install [Python 2.7.18](https://www.python.org/downloads/release/python-2718/), where pip is already there as there are no pip files before 2.7.9 and needs to be bootstrapped if used.
+* Install cp27-amd64 or cp27-amd32 .whl files for [Pyproj](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyproj) and [Basemap](https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap)
+* Using command prompt, use ' pip install pyproj‑1.9.6‑cp27‑cp27m‑win_amd64.whl' and ' pip install basemap‑1.2.1‑cp27‑cp27m‑win_amd64.whl'
+* Either you can make python 2.7 as default version in user and system environment variables in system settings or can Select Interpreter in VS Code and choose Python 2.7
+* Please remember when installing any version of Python, all other related packages need to be installed again such as numpy, pandas, scikit-learn, scipy etc.
+
 ------------------------------------------------------------------------------------------------
 Note: Each program is compiled along with output log file and results in pdf using latex.
