@@ -7,6 +7,8 @@
   * [Non-Linear Regression](#non-linear-regression)
 * [Classification](#classification)
 * [Clustering](#clustering)
+* [Final Project](#final-project)
+
 ## General info
 This repository is on Machine Learning using Python 3.8.3 using Visual Studio Code. Most of the programs are from IBM Machine Learning course and some algorithms (course out of scope) are presenterd only for learning purpose. These codes will be on topics like Regression, Classification, Clustering and Recommender Systems. 
 
@@ -56,5 +58,10 @@ Currently basemap is no longer in use in matplotlib toolkits since 2017. Another
 * Either you can make python 2.7 as default version in user and system environment variables in system settings or can Select Interpreter in VS Code and choose Python 2.7
 * Please remember when installing any version of Python, all other related packages need to be installed again such as numpy, pandas, scikit-learn, scipy etc.
 
+## Final Project
+
+* Separate folder '[Final Project](#final-project)'- The final module of this course is a project to determine which basketball teams are most likely to make it to the semifinal round of the College Basketball Tournament known as the Final Four. It is performed on IBM Watson Studio AI in Notebook
+
 ------------------------------------------------------------------------------------------------
 Note: Each program is compiled along with output log file and results in pdf using latex.
+
